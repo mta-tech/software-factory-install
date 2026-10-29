@@ -22,6 +22,6 @@ factory get RUN_ID
 factory resume RUN_ID --follow
 ```
 
-Claude commands include `/herdr-factory:init`, `/herdr-factory:work`, `/herdr-factory:jobs`, and `/herdr-factory:resume RUN_ID`. Reconnect currently requires the original computer's local state root and actor. Remote coding can continue while the client is disconnected; local review, verification, and cleanup resume when the developer returns. Cross-computer recovery codes are future work.
+Claude commands include `/herdr-factory:init`, `/herdr-factory:work`, `/herdr-factory:jobs`, and `/herdr-factory:resume RUN_ID`. Reconnect currently requires the original computer's local state root and actor. Remote coding can continue while the client is disconnected; local review, verification, and cleanup resume when the developer returns. Cross-computer recovery codes are future work. Isolated candidate verification currently requires macOS; Linux verification fails closed.
 
 The application source is fetched through authenticated GitHub CLI requests pinned to the private v0.4.1 tag. Tokens are not put into installer command arguments. No application code or credentials are published in this repository.
