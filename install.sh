@@ -4,7 +4,7 @@ set -eu
 umask 077
 
 repo=${FACTORY_REPOSITORY:-mta-tech/software-factory}
-ref=${FACTORY_REF:-v1.0.0-rc.1}
+ref=${FACTORY_REF:-v1.0.0}
 prefix=${FACTORY_INSTALL_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/herdr-factory}
 bin_dir=${FACTORY_BIN_DIR:-$HOME/.local/bin}
 source_dir=
